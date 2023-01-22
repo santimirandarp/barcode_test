@@ -6,7 +6,7 @@ export default {
   mode: "development",
   entry: "./src/module.ts",
   output: {
-    path: resolve(__dirname, "dist"),
+    path: resolve(__dirname, "docs"),
     filename: "[name].bundle.js",
   },
   resolve: {
